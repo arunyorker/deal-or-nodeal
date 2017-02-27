@@ -1,1 +1,1 @@
-# deal-or-nodeal
+# Angular1-Deal-or-NoDeal

@@ -1,0 +1,27 @@
+<section class="container">
+	<h1><a><img src="assets/images/titleTop.png" alt="Deal or Nodeal Logo"></a></h1>
+	<section class="caseShow">
+		<ul>
+			<li ng-repeat="number in boxNumbers" ng-click="boxSelect(this)" ng-show="box">
+				{{number}}
+			</li>
+		</ul>
+	</section>
+	<!-- caseshow sections ends here -->
+	<section class="gameDetails">
+		<h2>{{playerName}}</h2>
+		<section class="roundDetails">
+			<div class="yourCase">
+				<span>Your Case</span>
+				<div ng-show="showBox">
+					{{selectedNumber}}
+				</div>
+			</div>
+			<div class="round">
+				<span>Select a case</span>
+			</div>
+			<div class="clear"></div>
+		</section>
+	</section>
+	<!-- gameDetails ends here -->
+</section>
